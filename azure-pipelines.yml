@@ -25,7 +25,7 @@ stages:
 - stage: DeployToVM
   jobs:
   - deployment: InstallApacheAndConfigure
-    displayName: "Instalar Apache y Configurar Página"
+    displayName: "Instalacion de Apache y Configurar Página"
 
     environment:
       name: "admin-VM" # Nombre de tu entorno
